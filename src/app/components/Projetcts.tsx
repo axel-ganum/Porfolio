@@ -30,9 +30,11 @@ export default function Projects() {
 
           {/* Proyecto 2 */}
           <div className="bg-gray-700 rounded-lg shadow-md p-6 text-left transform transition duration-500 hover:scale-105 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-1s">
-            <img
+          <Image
               src="/images/restaurante.jpg"
               alt="Restaurante"
+              width={500}
+              height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
             />
             <h3 className="text-2xl font-semibold text-gray-100">Landing Restaurante</h3>
@@ -46,13 +48,14 @@ export default function Projects() {
 
           {/* Proyecto 3 */}
           <div className="bg-gray-700 rounded-lg shadow-md p-6 text-left transform transition duration-500 hover:scale-105 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-2s">
-             <Image
-              src="/images/restaurante.jpg"
-              alt="Restaurante"
+          <Image
+              src="/images/cafeteria.jpg"
+              alt="Cafetería"
               width={500}
               height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
             />
+          
             <h3 className="text-2xl font-semibold text-gray-100">Landing Cafetería</h3>
             <p className="text-gray-300 mb-4">
               Página elegante para una cafetería especializada con enfoque visual.
