@@ -37,6 +37,7 @@ export default function Projects() {
               height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
             />
+            <h3 className="text-2xl font-semibold text-gray-100">Landing Restaurante</h3>
             <p className="text-gray-300 mb-4">
               Página moderna y visual para un restaurante local.
             </p>
