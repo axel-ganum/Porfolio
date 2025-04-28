@@ -37,7 +37,6 @@ export default function Projects() {
               height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
             />
-            <h3 className="text-2xl font-semibold text-gray-100">Landing Restaurante</h3>
             <p className="text-gray-300 mb-4">
               Página moderna y visual para un restaurante local.
             </p>
@@ -55,7 +54,6 @@ export default function Projects() {
               height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
             />
-          
             <h3 className="text-2xl font-semibold text-gray-100">Landing Cafetería</h3>
             <p className="text-gray-300 mb-4">
               Página elegante para una cafetería especializada con enfoque visual.
@@ -67,9 +65,9 @@ export default function Projects() {
 
           {/* Proyecto 4 */}
           <div className="bg-gray-700 rounded-lg shadow-md p-6 text-left transform transition duration-500 hover:scale-105 hover:shadow-lg animate__animated animate__fadeInUp animate__delay-3s">
-             <Image
-              src="/images/cafeteria.jpg"
-              alt="Cafetería"
+          <Image
+              src="/images/tienda.jpg"
+              alt="Tienda de Ropa"
               width={500}
               height={300}
               className="mb-4 rounded-lg object-cover w-full h-56"
